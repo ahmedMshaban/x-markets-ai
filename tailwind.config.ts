@@ -17,6 +17,7 @@ const config: Config = {
       fontFamily: {
         "space-grotesk": ["Space Grotesk, sans-serif"],
         syne: ["Syne, sans-serif"],
+        inter: ["Inter, sans-serif"],
       },
       spacing: {
         "19": "4.875rem",
@@ -24,6 +25,7 @@ const config: Config = {
       fontSize: {
         "15px": "15px",
         "20px": "20px",
+        "36px": "36px",
         "48px": "48px",
       },
       lineHeight: {
@@ -47,10 +49,13 @@ const config: Config = {
     },
 
     colors: {
+      white: "#FFFFFF",
       customGray: {
+        extraLight: "#CDCDCD",
         light: "#F1F0F7",
         medium: "#333333",
         dark: "#292929",
+        extraDark: "#0F0F11",
       },
     },
   },
