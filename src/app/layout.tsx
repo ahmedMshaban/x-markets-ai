@@ -5,8 +5,8 @@ import "./globals.css";
 const syne = Syne({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Xmarkets.AI",
-  description: "",
+  title: "xMarkets",
+  description: "Building the Future of Truth Seeking via AI ",
 };
 
 export default function RootLayout({
