@@ -6,6 +6,7 @@ import {
   EnhanceMarket,
   CreateMarket,
   ResolutionMethod,
+  EarnWithMarket,
 } from "./components";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <CreateMarket />
         <EnhanceMarket />
         <ResolutionMethod />
+        <EarnWithMarket />
         <Footer />
       </main>
     </>
