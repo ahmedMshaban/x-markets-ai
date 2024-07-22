@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/app/components";
 
 export function Header() {
   return (
@@ -10,7 +11,7 @@ export function Header() {
         alt="Xmarkets.AI logo"
       />
       <nav className="flex gap-x-19 ml-auto items-center">
-        <a
+        {/* <a
           className="text-[19.385px] leading-[33.231px] text-[#2D2D2D] font-semibold"
           href="/product"
         >
@@ -27,20 +28,14 @@ export function Header() {
           href="/career"
         >
           Career
-        </a>
+        </a> 
         <a
           className="text-[19.385px] leading-[33.231px] text-[#2D2D2D] font-semibold"
           href="/login"
         >
           Login
-        </a>
-        <a
-          href="#"
-          className="flex align-center gap-2 text-[19.385px] leading-[33.231px] font-semibold bg-black text-white rounded-2xl px-4 py-2"
-        >
-          Follow Us on{" "}
-          <Image src="/assets/x-logo.svg" width="20" height="18" alt="X logo" />
-        </a>
+        </a>*/}
+        <Button />
       </nav>
     </header>
   );
