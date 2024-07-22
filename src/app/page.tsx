@@ -1,4 +1,12 @@
-import { Header, Hero, PoweredBy, Footer } from "./components";
+import {
+  Header,
+  Hero,
+  PoweredBy,
+  Footer,
+  EnhanceMarket,
+  CreateMarket,
+  ResolutionMethod,
+} from "./components";
 
 export default function Home() {
   return (
@@ -7,6 +15,9 @@ export default function Home() {
       <main>
         <Hero />
         <PoweredBy />
+        <CreateMarket />
+        <EnhanceMarket />
+        <ResolutionMethod />
         <Footer />
       </main>
     </>
