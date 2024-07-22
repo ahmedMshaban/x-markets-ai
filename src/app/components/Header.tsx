@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="container max-w-7xl flex md:gap-x-19 py-6">
       <div className="w-[219px] h-[40px] relative">
-        <Image src="/assets/logo.svg" fill alt="Xmarkets.AI logo" />
+        <Image src="/assets/x-markets-logo.svg" fill alt="Xmarkets.AI logo" />
       </div>
       <nav className="flex gap-x-19 ml-auto items-center shrink-0">
         {/* <a
