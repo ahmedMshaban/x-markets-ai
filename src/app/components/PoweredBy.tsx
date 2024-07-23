@@ -8,18 +8,6 @@ export function PoweredBy() {
       </h2>
       <div className="flex flex-wrap justify-center md:gap-[58px] gap-4">
         <Image src="/assets/grok.svg" width={125} height={49} alt="Grok Logo" />
-        <Image
-          src="/assets/openai.svg"
-          width={129}
-          height={49}
-          alt="Open Ai Logo"
-        />
-        <Image
-          src="/assets/oracle.svg"
-          width={96}
-          height={49}
-          alt="Oracle Logo"
-        />
         <Image src="/assets/uma.svg" width={45} height={45} alt="Uma Logo" />
       </div>
     </section>

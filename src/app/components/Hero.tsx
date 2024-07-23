@@ -7,15 +7,15 @@ export function Hero() {
       <div className="container flex gap-8 max-w-[1070px] m-auto items-center flex-col md:pt-[191px] pt-[150px]">
         <h1
           className="font-space-grotesk
-        text-center
-        text-black
-        md:text-7xl
-        text-4xl
-        font-bold
-        md:leading-[79.2px]
-        md:tracking-[2.16px]"
+              text-center
+              text-black
+              md:text-7xl
+              text-4xl
+              font-bold
+              md:leading-[79.2px]
+              md:tracking-[2.16px]"
         >
-          Building the Future of Truth Seeking via AI
+          Setting a New Standard for Prediction Markets
         </h1>
         <p
           className="

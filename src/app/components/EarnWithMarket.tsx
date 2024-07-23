@@ -1,40 +1,61 @@
 import Image from "next/image";
-import Button from "./ui/Button";
+import { Button } from "@/app/components/";
 
 export function EarnWithMarket() {
   return (
     <>
       <div className="flex justify-between items-center">
-        <Image
+        <div className="md:w-1/2 relative">
+          <Image
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="md:w-[175.11px] w-1/2 h-auto"
+            src="/assets/black-bg-top.svg"
+            alt=""
+          />
+        </div>
+        <div className="md:w-1/2 relative">
+          <Image
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="md:w-[175.11px] w-1/2 h-auto transform scale-x-[-1] ml-auto"
+            src="/assets/black-bg-top.svg"
+            alt=""
+          />
+        </div>
+
+        {/* <Image
           src="/assets/black-bg-top.svg"
           width={175.11}
           height={55}
           alt=""
-        />
+        /> */}
 
-        <Image
+        {/* <Image
           src="/assets/black-bg-top.svg"
           width={175.11}
           height={55}
           alt=""
           className="transform scale-x-[-1]"
-        />
+        /> */}
       </div>
 
-      <div className="bg-customGray-extraDark py-20">
+      <div className="bg-customGray-extraDark md:py-20 py-10 px-5">
         <div>
-          <h2 className="font-space-grotesk text-white text-48px tracking-1.44 font-bold leading-120 mb-6 text-center">
+          <h2 className="font-space-grotesk text-white md:text-48px text-36px tracking-1.44 font-bold leading-120 mb-6 text-center">
             Earn with Every Market
           </h2>
-          <p className="font-syne text-white font-medium leading-160 tracking-[0.8px] text-20px mb-[55px] text-center">
+          <p className="font-syne text-white font-medium leading-160 tracking-[0.8px] md:text-20px text-15px mb-[55px] text-center">
             Market creators earn 50% of the trading fees, incentivizing
             high-quality market creation.
           </p>
         </div>
 
-        <div className="p-px rounded-3xl max-w-1226 m-auto relative overflow-hidden border-linear-gradient ">
+        <div className="container p-px rounded-3xl max-w-1226 m-auto relative overflow-hidden border-linear-gradient ">
           <div
-            className="rounded-3xl pt-[35px] pb-[47px] px-[170px] "
+            className="rounded-3xl pt-[35px] pb-[47px] lg:px-[170px] sm:px-8 px-4"
             style={{
               background:
                 "linear-gradient(246deg, rgba(53, 53, 54, 0.70) -1.67%, rgba(19, 19, 22, 0.70) 151.49%)",
@@ -55,12 +76,12 @@ export function EarnWithMarket() {
               alt="Arbitrum logo"
               className="m-auto z-50 relative"
             />
-            <h3 className="font-space-grotesk text-white text-36px tracking-[1.08] font-bold leading-120 my-[29px] text-center z-50 relative">
+            <h3 className="font-space-grotesk text-white md:text-36px text-3xl tracking-[1.08] font-bold leading-120 my-[29px] text-center z-50 relative">
               Running on Arbitrum
             </h3>
-            <div className="flex gap-[25px] mb-11">
+            <div className=" flex flex-col md:flex-row gap-[25px] mb-11">
               <div
-                className="py-[110px] px-[41px] rounded-[10px] w-1/2 z-50 relative"
+                className="py-[110px] lg:px-[41px] md:px-6 px-4 rounded-[10px] md:w-1/2 z-50 relative"
                 style={{
                   background:
                     "linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 65%), rgba(116, 118, 134, 0.05)",
@@ -69,17 +90,17 @@ export function EarnWithMarket() {
                   backdropFilter: "blur(3.5px)",
                 }}
               >
-                <p className="text-customGray-extraLight font-inter text-base font-bold leading-160 m-0.5">
-                  Earning
+                <p className="text-customGray-extraLight font-inter text-base font-bold leading-160 mb-2">
+                  Earned:
                 </p>
-                <p className="text-customGray-extraLight text-[51.32px] font-inter leading-160 font-bold text-center">
-                  324.057{" "}
-                  <span className="text-[19.32px] font-normal">ETH</span>
+                <p className="text-customGray-extraLight lg:text-[51.32px] md:text-[40px] sm:text-5xl text-4xl font-inter leading-160 font-bold">
+                  $8324.56{" "}
+                  <span className="text-[19.32px] font-normal">USD</span>
                 </p>
               </div>
 
               <div
-                className="py-8 px-7 rounded-[10px] w-1/2 z-50 z-50 relative"
+                className="py-8 lg:px-7 md:px-5 px-3  rounded-[10px] md:w-1/2 z-50 z-50 relative"
                 style={{
                   background:
                     "linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 65%), rgba(116, 118, 134, 0.05)",
@@ -92,7 +113,7 @@ export function EarnWithMarket() {
                   Activity
                 </p>
 
-                <div className="flex justify-between gap-[21px] items-start">
+                <div className="flex justify-between lg:gap-[21px] md:gap-4 gap-3 items-start">
                   <Image
                     src="/assets/miles-esther.png"
                     width={48}
@@ -100,8 +121,8 @@ export function EarnWithMarket() {
                     alt="miles esther"
                     className="border-[3.2px] border-[rgba(19,19,22,0.60)] shadow-[0px_0.534px_0px_0px_rgba(255,255,255,0.03)] rounded-full"
                   />
-                  <div>
-                    <div className="flex gap-[5px] items-center">
+                  <div className="grow">
+                    <div className="flex gap-[5px] items-center flex-wrap">
                       <p className="text-customGray-extraLight font-inter text-base font-bold leading-160">
                         Miles Esther
                       </p>
@@ -136,7 +157,7 @@ export function EarnWithMarket() {
                   style={{ background: "rgba(255, 255, 255, 0.10)" }}
                 ></div>
 
-                <div className="flex justify-between gap-[21px] items-start">
+                <div className="flex justify-between md:gap-[21px] md:gap-4 gap-3 items-start">
                   <Image
                     src="/assets/marry-arther.png"
                     width={48}
@@ -144,8 +165,8 @@ export function EarnWithMarket() {
                     alt="marry arthur"
                     className="border-[3.2px] border-[rgba(19,19,22,0.60)] shadow-[0px_0.534px_0px_0px_rgba(255,255,255,0.03)] rounded-full"
                   />
-                  <div>
-                    <div className="flex gap-[3px] items-center">
+                  <div className="grow">
+                    <div className="flex gap-[3px] items-center flex-wrap">
                       <p className="text-customGray-extraLight font-inter text-base font-bold leading-160">
                         Marry Arthur
                       </p>
@@ -180,7 +201,7 @@ export function EarnWithMarket() {
                   style={{ background: "rgba(255, 255, 255, 0.10)" }}
                 ></div>
 
-                <div className="flex justify-between gap-[21px] items-start">
+                <div className="flex justify-between md:gap-[21px] md:gap-4 gap-3 items-start">
                   <Image
                     src="/assets/Flores-Juanita.png"
                     width={48}
@@ -188,8 +209,8 @@ export function EarnWithMarket() {
                     alt="Flores Juanita"
                     className="border-[3.2px] border-[rgba(19,19,22,0.60)] shadow-[0px_0.534px_0px_0px_rgba(255,255,255,0.03)] rounded-full"
                   />
-                  <div>
-                    <div className="flex gap-[5px] items-center">
+                  <div className="grow">
+                    <div className="flex gap-[5px] items-center flex-wrap">
                       <p className="text-customGray-extraLight font-inter text-base font-bold leading-160">
                         Flores Juanita
                       </p>
@@ -221,7 +242,7 @@ export function EarnWithMarket() {
               </div>
             </div>
 
-            <div className="text-center">
+            <div className="text-center relative z-50">
               <Button backgroundColor="bg-[#4636FF]" />
             </div>
 
