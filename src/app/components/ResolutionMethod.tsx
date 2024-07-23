@@ -5,12 +5,12 @@ export function ResolutionMethod() {
     <div className="container md:py-20 py-10 flex flex-col md:flex-row items-center justify-between max-w-1226 md:gap-12 m-auto">
       <div className="order-last md:order-first md:w-1/2 md:max-w-518">
         <h4 className="font-syne text-customGray-medium text-15px font-bold leading-120 tracking-5.4 uppercase">
-          Enhancing Precision
+          unbiased resolutions
         </h4>
         <h2 className="font-space-grotesk text-black md:text-48px text-3xl md:tracking-1.44 font-bold md:leading-120 md:my-6 my-3">
           Flexible and Trustworthy Judging
         </h2>
-        <p className="font-syne text-customGray-dark font-medium leading-160 text-20px md:max-w-400">
+        <p className="font-space-grotesk text-customGray-dark leading-160 text-20px md:max-w-400">
           Choose from creator-led judging, AI with browsing capabilities, or UMA
           for unbiased market resolutions.
         </p>

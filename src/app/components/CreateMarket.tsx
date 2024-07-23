@@ -10,7 +10,7 @@ export function CreateMarket() {
         <h2 className="font-space-grotesk text-black md:text-48px text-3xl md:tracking-1.44 font-bold md:leading-120 md:my-6 my-3">
           Leveraging X for Market Creation
         </h2>
-        <p className="font-syne text-customGray-dark font-medium leading-160 text-20px">
+        <p className="font-space-grotesk text-customGray-dark leading-160 text-20px">
           Empower top X influencers with over 1k followers to create engaging
           markets, driving higher trust and participation.
         </p>
@@ -22,7 +22,7 @@ export function CreateMarket() {
           height="0"
           sizes="100vw"
           className="w-full h-auto"
-          src="/assets/create-a-market.svg"
+          src="/assets/create-market.svg"
           alt="create a market"
         />
       </div>
