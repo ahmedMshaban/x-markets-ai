@@ -25,21 +25,6 @@ export function EarnWithMarket() {
             alt=""
           />
         </div>
-
-        {/* <Image
-          src="/assets/black-bg-top.svg"
-          width={175.11}
-          height={55}
-          alt=""
-        /> */}
-
-        {/* <Image
-          src="/assets/black-bg-top.svg"
-          width={175.11}
-          height={55}
-          alt=""
-          className="transform scale-x-[-1]"
-        /> */}
       </div>
 
       <div className="bg-customGray-extraDark md:py-20 py-10 px-5">
@@ -63,18 +48,18 @@ export function EarnWithMarket() {
           >
             <Image
               src="/assets/circle.svg"
-              width={676}
-              height={676}
+              width={0}
+              height={0}
               alt=""
-              className="absolute top-0 left-1/2 transform -translate-x-1/2"
+              className="h-auto w-[676px] absolute top-0 left-1/2 transform -translate-x-1/2"
             />
 
             <Image
               src="/assets/arbitrum.svg"
-              width={40}
-              height={40}
+              width={0}
+              height={0}
               alt="Arbitrum logo"
-              className="m-auto z-50 relative"
+              className="h-auto w-[40px] m-auto z-50 relative"
             />
             <h3 className="font-space-grotesk text-white md:text-36px text-3xl tracking-[1.08] font-bold leading-120 my-[29px] text-center z-50 relative">
               Running on Arbitrum
@@ -128,9 +113,10 @@ export function EarnWithMarket() {
                       </p>
                       <Image
                         src="/assets/verified.svg"
-                        width={19.3}
-                        height={19.3}
+                        width={0}
+                        height={0}
                         alt="verified"
+                        className="h-auto w-[19.3px]"
                       />
                       <p className="text-customGray-extraLight font-inter text-base font-medium leading-160">
                         bet
@@ -172,9 +158,10 @@ export function EarnWithMarket() {
                       </p>
                       <Image
                         src="/assets/verified.svg"
-                        width={19.3}
-                        height={19.3}
+                        width={0}
+                        height={0}
                         alt="verified"
+                        className="h-auto w-[19.3px]"
                       />
                       <p className="text-customGray-extraLight font-inter text-base font-medium leading-160">
                         bet
@@ -204,10 +191,10 @@ export function EarnWithMarket() {
                 <div className="flex justify-between md:gap-[21px] md:gap-4 gap-3 items-start">
                   <Image
                     src="/assets/Flores-Juanita.png"
-                    width={48}
-                    height={48}
+                    width={0}
+                    height={0}
                     alt="Flores Juanita"
-                    className="border-[3.2px] border-[rgba(19,19,22,0.60)] shadow-[0px_0.534px_0px_0px_rgba(255,255,255,0.03)] rounded-full"
+                    className="h-auto w-[48px] border-[3.2px] border-[rgba(19,19,22,0.60)] shadow-[0px_0.534px_0px_0px_rgba(255,255,255,0.03)] rounded-full"
                   />
                   <div className="grow">
                     <div className="flex gap-[5px] items-center flex-wrap">
@@ -216,9 +203,10 @@ export function EarnWithMarket() {
                       </p>
                       <Image
                         src="/assets/verified.svg"
-                        width={19.3}
-                        height={19.3}
+                        width={0}
+                        height={0}
                         alt="verified"
+                        className="h-auto w-[19.3px]"
                       />
                       <p className="text-customGray-extraLight font-inter text-base font-medium leading-160">
                         bet
@@ -248,17 +236,18 @@ export function EarnWithMarket() {
 
             <Image
               src="/assets/bg-corners.svg"
-              width={254}
-              height={304}
+              width={0}
+              height={0}
               alt=""
-              className="absolute bottom-0 right-0 transform scale-x-[-1]"
+              className="h-auto w-[254px] absolute bottom-0 right-0 transform scale-x-[-1]"
             />
+
             <Image
               src="/assets/bg-corners.svg"
-              width={254}
-              height={304}
+              width={0}
+              height={0}
               alt=""
-              className="absolute bottom-0 left-0"
+              className="h-auto w-[254px] absolute bottom-0 left-0"
             />
           </div>
         </div>
